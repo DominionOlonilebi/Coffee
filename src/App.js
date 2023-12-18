@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Backgrounds from './Components/Backgrounds';
+import About from './Components/About';
+import StructuredNav from './Components/StructuredNav';
+import Pro from './Components/Pro';
+import Goals from './Components/Goals';
+import Cardo from './Components/Cardo';
+import Footer from './Components/Footer';
+import Home from './Components/Home';
+import CoffeeShop from './Components/CoffeeShop';
+import Contact from './Components/Contact';
+import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+    <Home/>
+    <About/>
+    <Goals/>
+    <CoffeeShop/>
+    <Contact/>
+          </>
   );
 }
 
