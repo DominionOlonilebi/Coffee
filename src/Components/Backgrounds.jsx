@@ -11,7 +11,7 @@ const Backgrounds = () => {
 
   return (
     <>
-      <Container fluid className="bg">
+      <section fluid className="bg">
         <Container>
           <Row>
             <Col md={6} sm={12}>
@@ -53,7 +53,7 @@ const Backgrounds = () => {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </section>
     </>
   );
 };

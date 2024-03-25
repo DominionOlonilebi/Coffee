@@ -10,14 +10,14 @@ const Goals = () => {
   return (
     <div id="goals">
       <Container className="goal">
-        <h1 className=" mb-2">
+        <h2 className=" mb-2">
           <b>Company's Goal</b>
-        </h1>
+        </h2>
 
         <h5 className="mt-3 mb-3">
           <b>Our Mission</b>
         </h5>
-        <p>
+        <p style={{ lineHeight: "27px" }}>
           Neque sodales ut etiam sit amet nisl purus. Lacus luctus accumsan
           tortor posuere. Suspendisse interdum consectetur libero id faucibus
           nisl tincidunt eget nullam. Sed viverra ipsum nunc aliquet bibendum
@@ -74,7 +74,7 @@ const Goals = () => {
         <h5 className="mt-5 mb-3">
           <b>Our Vision</b>
         </h5>
-        <p>
+        <p style={{ fontSize: "14px", lineHeight: "27px" }}>
           Neque sodales ut etiam sit amet nisl purus. Lacus luctus accumsan
           tortor posuere. Suspendisse interdum consectetur libero id faucibus
           nisl tincidunt eget nullam. Sed viverra ipsum nunc aliquet bibendum
@@ -94,11 +94,11 @@ const Goals = () => {
       <Container>
         <Row className="mt-5">
           <Col md={6}>
-            <img src="Images/cof1.jpg" alt="" width={540} />
+            <img src="Images/cof1.jpg" alt="" className="img-fluid" />
           </Col>
 
           <Col md={6}>
-            <p>
+            <p style={{ lineHeight: "27px" }}>
               Egestas integer eget aliquet nibh. Feugiat in ante metus dictum at
               tempor commodo ullamcorper. Donec enim diam vulputate ut pharetra
               sit. Phasellus egestas tellus rutrum tellus pellentesque eu. At

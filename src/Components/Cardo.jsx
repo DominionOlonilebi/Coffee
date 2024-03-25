@@ -27,16 +27,21 @@ const Cardo = () => {
                   height={200}
                 />
                 <div className=" text-center mt-3">
-                  <Card.Title>
+                  <Card.Title style={{ fontSize: "16px" }}>
                     <b>Raw Coffee Beans</b>
                   </Card.Title>
-                  <Card.Text>
+                  <Card.Text style={{ fontSize: "14px" }}>
                     Aliquam vesti etiam sit bulum morbi blan sodales dit cursus
                     risus. Neque sodales ut etiam sit amet nisl purus. Lacus
                     luctus sit vesti accumsan tortor posuere.
                   </Card.Text>
                   <a href="#secret">
-                    <Button className="btnn mb-2 py-3 px-5">Read More</Button>
+                    <Button
+                      className="btnn mb-2 py-2.5 px-3.5 "
+                      style={{ borderRadius: "0px" }}
+                    >
+                      Read More
+                    </Button>
                   </a>
                 </div>
               </Card.Body>
@@ -55,16 +60,21 @@ const Cardo = () => {
                   height={200}
                 />
                 <div className=" text-center mt-3">
-                  <Card.Title>
+                  <Card.Title style={{ fontSize: "16px" }}>
                     <b>Roasting</b>
                   </Card.Title>
-                  <Card.Text>
+                  <Card.Text style={{ fontSize: "14px" }}>
                     Aliquam vestibulum morbi blandit cursus risus. Neque sodales
                     ut etiam sit amet nisl purus. etiam sit bulum morbi blan
                     sodales Lacus luctus accumsan tortor posuere.
                   </Card.Text>
                   <a href="#secret">
-                    <Button className="btnns mb-2 py-3 px-5">Read More</Button>
+                    <Button
+                      className="btnns mb-2 py-2.5 px-3.5"
+                      style={{ borderRadius: "0px" }}
+                    >
+                      Read More
+                    </Button>
                   </a>
                 </div>
               </Card.Body>
@@ -83,16 +93,21 @@ const Cardo = () => {
                   height={200}
                 />
                 <div className=" text-center mt-3">
-                  <Card.Title>
+                  <Card.Title style={{ fontSize: "16px" }}>
                     <b>Grinding</b>
                   </Card.Title>
-                  <Card.Text>
+                  <Card.Text style={{ fontSize: "14px" }}>
                     Aliquam vestibulum morbi blandit cursus risus. Neque sodales
                     ut etiam sit amet nisl purus. etiam sit bulum morbi blan
                     sodales dit luctus accumsan tortor posuere.
                   </Card.Text>
                   <a href="#secret">
-                    <Button className="btnn mb-2 py-3 px-5">Read More</Button>
+                    <Button
+                      className="btnn mb-2 py-2.5 px-3.5"
+                      style={{ borderRadius: "0px" }}
+                    >
+                      Read More
+                    </Button>
                   </a>
                 </div>
               </Card.Body>

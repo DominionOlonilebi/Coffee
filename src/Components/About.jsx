@@ -19,11 +19,11 @@ const About = () => {
     <div id="about">
       <Container>
         <div className="abt">
-          <h1>
+          <h2>
             <b>About Our Company</b>
-          </h1>
+          </h2>
           <div className={`slide-down-container ${isVisible ? "visible" : ""}`}>
-            <p className="slide-down-text">
+            <p className="slide-down-text" style={{ lineHeight: "27px" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue
               quisque egestas diam in arcu cursus. Maecenas accumsan lacus vel
@@ -49,14 +49,7 @@ const About = () => {
               placerat id nibh tortor. Scelerisque felis imperdiet proin
               fermentum leo vel. Nisl condimentum id tate mi sit amet mauris
               commodo quis imperdiet massa tincidunt. Vitae proin sagittis nisl
-              rhoncus. Aenean et tortor at risus. Lacus luctus accumsan tortor
-              posuere. Donec enim diam vulputate ut pharetra sit. Justo libero
-              id faucibus nisl tincidunt eget nullam. Sed viverra ipsum nunc
-              aliquet bibendum enim facilisis. Diam vel quam elementum pulvinar
-              etiam non quam lacus suspendisse. Egestas integer eget aliquet
-              nibh donec enim diam vulputate ut pharetra sit amet aliquam. Ut
-              placerat orci nulla pellentesque dignissim enim sit amet. Leo vel
-              fringilla est ullamcorper Ut pellentesque dignissim enim sit amet.
+              rhoncus.
             </p>
           </div>
         </div>
@@ -68,7 +61,7 @@ const About = () => {
           <MDBCarousel showIndicators showControls slide-out>
             <MDBCarouselItem itemId>
               <Row className="mb-4">
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75"
@@ -76,7 +69,7 @@ const About = () => {
                   />
                   <p>Cappussino</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es4.jpg"
                     className="img-fluid w-100 h-75"
@@ -84,7 +77,7 @@ const About = () => {
                   />
                   <p>Americano</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75"
@@ -92,7 +85,7 @@ const About = () => {
                   />
                   <p>Espresso</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es3.jpg"
                     className="img-fluid w-100 h-75"
@@ -100,7 +93,7 @@ const About = () => {
                   />
                   <p>Latte</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es4.jpg"
                     className="img-fluid w-100 h-75"
@@ -108,7 +101,7 @@ const About = () => {
                   />
                   <p>Cappussino</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75"
@@ -116,7 +109,7 @@ const About = () => {
                   />
                   <p>Americano</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es4.jpg"
                     className="img-fluid w-100 h-75"
@@ -124,7 +117,7 @@ const About = () => {
                   />
                   <p>Espresso</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es3.jpg"
                     className="img-fluid w-100 h-75"
@@ -132,7 +125,7 @@ const About = () => {
                   />
                   <p>Latte</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75"
@@ -140,7 +133,7 @@ const About = () => {
                   />
                   <p>Cappussino</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es3.jpg"
                     className="img-fluid w-100 h-75"
@@ -148,7 +141,7 @@ const About = () => {
                   />
                   <p>Americano</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75 w-100 h-75"
@@ -156,7 +149,7 @@ const About = () => {
                   />
                   <p>Espresso</p>
                 </div>
-                <div className="col-3 mb-2">
+                <div className="col-md-3 col-4 mb-2">
                   <img
                     src="Images/es4.jpg"
                     className="img-fluid w-100 h-75 h-75 w-100"
@@ -168,7 +161,7 @@ const About = () => {
             </MDBCarouselItem>
           </MDBCarousel>
           <div>
-            <p>
+            <p style={{ fontSize: "14px" }}>
               <FontAwesomeIcon icon={faCheck} className="text-danger" />
               &nbsp; &nbsp; &nbsp; &nbsp;Cappussino pellentesque id nibh tortor.
               Scelerisque felis imperdiet proin fermentum leo vel. Nisl
@@ -180,7 +173,7 @@ const About = () => {
               proin fermentum leo vel. Nisl condimentum id entum mattis
               pellentesque id nibh tortor.{" "}
             </p>
-            <p>
+            <p style={{ fontSize: "14px" }}>
               <FontAwesomeIcon icon={faCheck} className="text-danger" />
               &nbsp; &nbsp; &nbsp; &nbsp;Americano pellentesque id nibh tortor.
               Scelerisque felis imperdiet proin fermentum leo vel. Nisl
@@ -192,7 +185,7 @@ const About = () => {
               proin fermentum leo vel. Nisl condimentum id entum mattis
               pellentesque id nibh tortor.{" "}
             </p>
-            <p>
+            <p style={{ fontSize: "14px" }}>
               <FontAwesomeIcon icon={faCheck} className="text-danger" />
               &nbsp; &nbsp; &nbsp; &nbsp;Espresso pellentesque id nibh tortor.
               Scelerisque felis imperdiet proin fermentum leo vel. Nisl
@@ -204,7 +197,7 @@ const About = () => {
               proin fermentum leo vel. Nisl condimentum id entum mattis
               pellentesque id nibh tortor.{" "}
             </p>
-            <p>
+            <p style={{ fontSize: "14px" }}>
               <FontAwesomeIcon icon={faCheck} className="text-danger" />
               &nbsp; &nbsp; &nbsp; &nbsp;Cappussino pellentesque id nibh tortor.
               Scelerisque felis imperdiet proin fermentum leo vel. Nisl
@@ -221,15 +214,15 @@ const About = () => {
 
         <section id="secret">
           <Row className="d-flex flex-row justify-content-center">
-            <Col md={4} sm={12}>
+            <div className="col-md-4 col-4">
               <img
                 src="Images/cof4.jpg"
                 alt=""
                 className="mt-5 mb-2 img-fluid"
               />
-            </Col>
+            </div>
 
-            <Col md={4} sm={12} className="">
+            <div className="col-md-4 col-8">
               <p className="mt-5 mb-2 mx-3">
                 <h3>
                   <b>Our Coffee's Secrets</b>
@@ -240,11 +233,11 @@ const About = () => {
                 ullamcorper Ut pellentesque dignissim enim sit amet. Leo vel
                 fringilla est ullamcorper. Nunc id cursus metus aliquam
               </p>
-            </Col>
+            </div>
           </Row>
 
           <Row className="d-flex flex-row justify-content-center">
-            <Col md={4} className="">
+            <div className="col-md-4 col-8">
               <p className="mt-3 mb-2 mx-3">
                 <h3>
                   <b>Our Coffee's Secrets</b>
@@ -255,11 +248,11 @@ const About = () => {
                 ullamcorper Ut pellentesque dignissim enim sit amet. Leo vel
                 fringilla est ullamcorper. Nunc id cursus metus aliquam
               </p>
-            </Col>
+            </div>
 
-            <Col md={4} sm={12}>
+            <div className="col-md-4 col-4">
               <img src="Images/cof3.jpg" alt="" className="img-fluid" />
-            </Col>
+            </div>
           </Row>
         </section>
       </Container>

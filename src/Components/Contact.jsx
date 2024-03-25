@@ -23,8 +23,8 @@ const Contact = () => {
     <div id="contact">
       <Container className="ctn">
         <h1>Contact Us</h1>
-        <Row>
-          <div className="col-4">
+        <Row className="d-flex justify-content-center">
+          <div className="col-3 mx-3">
             <div>
               {" "}
               <span>
@@ -34,7 +34,7 @@ const Contact = () => {
               +23465874309
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-3 mx-3">
             <div>
               {" "}
               <span>
@@ -44,7 +44,7 @@ const Contact = () => {
               +23465874309
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-3 mx-3">
             <div>
               {" "}
               <span>
@@ -121,7 +121,7 @@ const Contact = () => {
               title="google map"
               className="map mt-5 mx-5"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7914.061118635292!2d3.8813!3d7.350465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d940d6ae62f%3A0x56d4491dd5ea662f!2sMolete%20Baptist%20Church%20Ibadan!5e0!3m2!1sen!2sng!4v1702354562341!5m2!1sen!2sng"
-              width={450}
+              width={400}
               height={415}
               border={0}
               allowfullscreen=""
