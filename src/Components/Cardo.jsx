@@ -64,7 +64,7 @@ const Cardo = () => {
                     sodales Lacus luctus accumsan tortor posuere.
                   </Card.Text>
                   <a href="#secret">
-                    <Button className="btnn mb-2 py-3 px-5">Read More</Button>
+                    <Button className="btnns mb-2 py-3 px-5">Read More</Button>
                   </a>
                 </div>
               </Card.Body>

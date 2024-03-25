@@ -24,7 +24,7 @@ const Contact = () => {
       <Container className="ctn">
         <h1>Contact Us</h1>
         <Row>
-          <Col md={4}>
+          <div className="col-4">
             <div>
               {" "}
               <span>
@@ -33,8 +33,8 @@ const Contact = () => {
               </span>
               +23465874309
             </div>
-          </Col>
-          <Col md={4}>
+          </div>
+          <div className="col-4">
             <div>
               {" "}
               <span>
@@ -43,8 +43,8 @@ const Contact = () => {
               </span>
               +23465874309
             </div>
-          </Col>
-          <Col md={4}>
+          </div>
+          <div className="col-4">
             <div>
               {" "}
               <span>
@@ -53,17 +53,17 @@ const Contact = () => {
               </span>
               +23465874309
             </div>
-          </Col>
+          </div>
         </Row>
 
         <Row>
           <Col md={6} className="ct">
-            <p className="ctns mx-5">
+            <p className="ctns mx-3">
               Contact us by sending an email to{" "}
               <span className="cct">hq1@gmail.com</span> or use the contact form
               below
             </p>
-            <Form className="forms mx-5">
+            <Form className="forms mx-3">
               <p>
                 <input
                   type="text"

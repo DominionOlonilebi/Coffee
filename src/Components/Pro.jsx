@@ -110,27 +110,27 @@ const Pro = () => {
 
       <Container>
         <Row>
-          <Col md={4} sm={12}>
+          <div className="col-4">
             <img
               src="Images/cof80.jpg"
               className="img-fluid w-100 h-90 mb-2"
               alt=""
             />
-          </Col>
-          <Col md={4} sm={12}>
+          </div>
+          <div className="col-4">
             <img
               src="Images/cof80.jpg"
               alt=""
               className="img-fluid w-100 h-90 mb-2"
             />
-          </Col>
-          <Col md={4} sm={12}>
+          </div>
+          <div className="col-4">
             <img
               src="Images/cof80.jpg"
               alt=""
               className="img-fluid w-100 h-90 mb-2"
             />
-          </Col>
+          </div>
         </Row>
       </Container>
     </div>

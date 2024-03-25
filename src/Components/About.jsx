@@ -68,102 +68,102 @@ const About = () => {
           <MDBCarousel showIndicators showControls slide-out>
             <MDBCarouselItem itemId>
               <Row className="mb-4">
-                <Col md={3} sm={12} className="mb-2">
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Cappussino</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es4.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Americano</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Espresso</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es3.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Latte</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es4.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Cappussino</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Americano</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es4.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Espresso</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es3.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Latte</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Cappussino</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es3.jpg"
                     className="img-fluid w-100 h-75"
                     alt=""
                   />
                   <p>Americano</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es2.jpg"
                     className="img-fluid w-100 h-75 w-100 h-75"
                     alt=""
                   />
                   <p>Espresso</p>
-                </Col>
-                <Col md={3} sm={12} className="mb-2">
+                </div>
+                <div className="col-3 mb-2">
                   <img
                     src="Images/es4.jpg"
                     className="img-fluid w-100 h-75 h-75 w-100"
                     alt=""
                   />
                   <p>Latte</p>
-                </Col>
+                </div>
               </Row>
             </MDBCarouselItem>
           </MDBCarousel>
