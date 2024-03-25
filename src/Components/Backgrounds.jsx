@@ -42,7 +42,7 @@ const Backgrounds = () => {
 
                 <div className="jiggle-container">
                   <div className="jiggle-box">
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-start">
                       <a href="#ord">
                         <Button className="now">
                           <b>Order Now</b>

@@ -2,7 +2,7 @@ body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
   }
 .navs{
-    background-color: burlywood;
+    background-color: rgb(230, 196, 151);
     
 }
 .navs .navbar-brand{
@@ -55,9 +55,9 @@ body {
     padding-bottom: 50px;
 }
 .bg h1{
-    color: #fcac44;
+    color: #fdbb64;
     padding-bottom: 25px;
-    font-size: 39px;
+    font-size: 40px;
     
 }
 .bg .pan{
@@ -71,8 +71,8 @@ body {
     font-family: cursive;
 }
 .bg h3{
-    color: rgb(252, 172, 68);
-    font-size: 32px;
+    color: #fdbb64;
+    font-size: 30px;
     padding-bottom: 10px;
 }
 .fade-in-text {
@@ -263,8 +263,8 @@ body {
 /*card*/
 
 .cd .card{
-    background-color: rgb(223, 191, 149);
-    border-color: rgb(223, 191, 149);
+    background-color: rgb(235, 235, 235);
+    border-color: none;
     padding-bottom: 10px;
 }
 .cd p{
@@ -334,10 +334,12 @@ padding-bottom: 25px;
 .forms input{
     width: 420px;
     height: 45px;
+    border: transparent;
 }
 .forms textarea{
     width: 420px;
     height: 120px;
+    border: transparent;
 }
 .forms .btnn{
     background-color: rgb(170, 2, 2);
@@ -355,9 +357,9 @@ padding-bottom: 25px;
     border-radius: 10px;
 }
 .footers{
-    background-color: burlywood;
+    background-color: rgb(230, 196, 151);
     height: 130px;
-    margin-top: 300px;
+    margin-top: 120px;
 }
 .footers p{
     text-align: center;
