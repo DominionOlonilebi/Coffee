@@ -12,10 +12,10 @@ import {
 const Footer = () => {
   return (
     <div>
-      <Container fluid className="footers">
+      <Container fluid className="footers pt-4 pb-3">
         <Row>
           <Col>
-            <div className="d-flex justify-content-center pt-5">
+            <div className="d-flex justify-content-center ">
               <a href="/">
                 <FontAwesomeIcon icon={faFacebook} className="mx-3 " />
               </a>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faTwitter} className="mx-3 " />
               </a>
             </div>
-            <p>
+            <p style={{ fontSize: "13px" }}>
               <b>&copy; Copyright 2023 HQ Group. All rights reserved.</b>
             </p>
           </Col>
